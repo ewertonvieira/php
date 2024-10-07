@@ -19,7 +19,7 @@ while (($line = fgetcsv($fileOpen, 1000, ',')) !== false) {
 fclose($fileOpen);
 
 // Aplicando filtro
-echo "<h2> Filtro por idade menor que 30 anos</h2>";
+echo "<h2> Filtro por idade, menor que 30 anos</h2>";
 foreach ($ArrAsso as $item) {
     if ($item['Idade'] < 30) {
         echo "<p>" . $item['Nome'] . ", " . $item['Idade'] . ", " . $item['Cidade'] . "</p>" ;
