@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0 30%;
         }
 
         table {
@@ -24,8 +24,8 @@
         }
 
         th {
-            background-color: #f2f2f2;
-            color: #333;
+            background-color: #5F9EA0;
+            color: #fff;
         }
 
         tr:nth-child(even) {
