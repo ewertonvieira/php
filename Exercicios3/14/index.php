@@ -7,9 +7,47 @@
     <title>Send Menssage</title>
 </head>
 
+<style>
+    body {
+        margin: 10% auto;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 50%;
+        margin: auto;
+        
+    }
+
+    textarea {
+        height: 200px;
+        border: 0.5px solid purple;
+        border-radius: 10px;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    button {
+        background-color: blueviolet;
+        color: #fff;
+        width: 100%;
+        border: none;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    h1 {
+        color: purple;
+        text-align: center;
+    }
+</style>
 <body>
     <form action="" method="post">
-        <textarea name="msg" id=""></textarea>
+        <h1>Mensseger</h2>
+        <textarea name="msg" id="" required></textarea>
         <button type="submit">Enviar</button>
     </form>
 
